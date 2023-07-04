@@ -1,24 +1,5 @@
 ## Dev Tools
 ### Git
-| Command                                 | Function                                                    |
-|-----------------------------------------|-------------------------------------------------------------|
-| git                                     | list all git commands                                       |
-| q                                       | Quit git process                                            |
-| git status                              | show all local changes                                      |
-| git diff <file>                         | show differences of original and changed file               |
-| git branch                              | list all local branches                                     |
-| git branch -a                           | list all local and all remote repository                    |
-| git clone <url>                         | load project from remote repository                         |
-| git pull                                | download changes from remote repository to local repository |
-| git push                                | upload local changes to remote repository                   |
-| git checkout <branch>                   | switch to an existing branch                                |
-| git checkout -b <branch>                | create new branch and switch to it                          |
-| git add <file>                          | load changes in staging area                                |
-| git add .                               | load all changes at once in staging area                    |
-| git commit                              | open editor and write commit message                        |
-| git commit -m "<Message>"               | commit with a short message                                 |
-| git commit --allow-empty -m "<Message>" | git allows commit without any changes                       |
-| git log                                 | show commit history                                         |
 | eval "$(ssh-agent -s)"                  | use when ssh is a bitch                                     |
 | ssh-add ~/.ssh/<my private key>         | add key to specific GitLab                                  |
 
