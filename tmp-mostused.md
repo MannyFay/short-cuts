@@ -17,6 +17,7 @@ This is a mix of regular commands and my aliases.
 | `gbsl`  | git branch show local (git branch). |
 | `gbdl`  | git branch delete local (git branch -D). |
 | `gbdr`  | git branch delete remote (git push --delete). |
+| `gdf`   | git diff file (git diff). |
 
 
 
@@ -102,15 +103,6 @@ alias giacm='git add . && git commit -m'
 
 # Stage all files and commit with WIP status:
 alias giacwip='git add . && git commit -m "WIP"'
-
-
-
-#-----------------------------------------------------------
-#- Comparing
-
-# Compare files (add file):
-alias gdf='git diff'
-
 
 
 #-----------------------------------------------------------
