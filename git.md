@@ -17,10 +17,6 @@ For example:
 |||
 |||
 
-| Command                                 | Function                                                    |
-|-----------------------------------------|-------------------------------------------------------------|
-| git                                     | list all git commands                                       |
-| q                                       | Quit git process                                            |
 | git status                              | show all local changes                                      |
 | git diff <file>                         | show differences of original and changed file               |
 | git branch                              | list all local branches                                     |
@@ -49,8 +45,10 @@ For example:
 |------------------------------------------------------------|:------------------------------------------:|
 | Create a new Git working tree (so called 'initializing'):  | `git init <name-of-directory-to-create>`   |
 | Initialize an existing directory as Git working tree:      | change into directory, then `git init`     |
-
-
+| List all local branches: | `git branch` |
+| List all local and remote branches: | `git branch -a` |
+| Checkout an existing, local branch: | `git checkout <branch-name>` |
+| Show the connection name to remote repository: | `git remote -v` |
 
 
  
@@ -61,8 +59,6 @@ For example:
 | Show all changes in working tree (local project directory): | `git status`                               |
 | Show all changes in working tree as short output:           | `git status -s`                               |
 | show differences of original and changed file              | git diff <file>                          |
-| list all local branches                                    | git branch                               |
-| list all local and all remote repository                   | git branch -a                            |
 | load project from remote repository                        | git clone <url>                          |
 | download changes from remote repository to local repository| git pull                                 |
 | upload local changes to remote repository                  | git push                                 |
@@ -75,5 +71,6 @@ For example:
 | git allows commit without any changes                      | git commit --allow-empty -m "<Message>"  |
 | show commit history                                        | git log                                  |
 
-| Quit git process                                           | q                                        |
 
+
+rename branch: git branch -m <old-name> <new-name>
