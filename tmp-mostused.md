@@ -18,6 +18,7 @@ This is a mix of regular commands and my aliases.
 | `gbdl`  | git branch delete local (git branch -D). |
 | `gbdr`  | git branch delete remote (git push --delete). |
 | `gdf`   | git diff file (git diff). |
+| `gupdate` | Add all and commit with 'Update' |
 
 
 
