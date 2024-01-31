@@ -21,9 +21,13 @@ This is a mix of regular commands and my aliases.
 | `gupdate` | Add all and commit with 'Update' |
 
 
-git remote -v -- show remote address
-git remote add origin <url> -- add new remote address (if there is none on origin)
-git remote set-url origin <url> -- add new remote address (if there is already one on origin)
+git remote -v -- show remote address  
+git remote add origin <url> -- add new remote address (if there is none on origin)  
+git remote set-url origin <url> -- add new remote address (if there is already one on origin)  
+ansible-vault encrypt your_file.yml  
+ansible-vault edit your_encrypted_file.yml  
+ansible-vault decrypt your_encrypted_file.yml  
+
 
 
 # List Git commands:
