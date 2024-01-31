@@ -22,7 +22,8 @@ This is a mix of regular commands and my aliases.
 
 
 git remote -v -- show remote address
-git remote add origin <url> -- add new remote address
+git remote add origin <url> -- add new remote address (if there is none on origin)
+git remote set-url origin <url> -- add new remote address (if there is already one on origin)
 
 
 # List Git commands:
