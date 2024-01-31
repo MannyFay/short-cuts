@@ -21,7 +21,8 @@ This is a mix of regular commands and my aliases.
 | `gupdate` | Add all and commit with 'Update' |
 
 
-
+git remote -v -- show remote address
+git remote add origin <url> -- add new remote address
 
 
 # List Git commands:
