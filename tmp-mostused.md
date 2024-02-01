@@ -19,6 +19,8 @@ This is a mix of regular commands and my aliases.
 | `gbdr`  | git branch delete remote (git push --delete). |
 | `gdf`   | git diff file (git diff). |
 | `gupdate` | Add all and commit with 'Update' |
+| `gpl` | Pull |
+| `gps` | Push |
 
 
 git remote -v -- show remote address  
